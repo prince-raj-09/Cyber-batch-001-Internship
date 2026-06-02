@@ -11,6 +11,9 @@ System Environment
 Operating System: Kali Linux VM
 Virtualization Platform: VirtualBox
 Network Interface: eth0
+
+-----------------------------------------------------------------------
+
 Part A: Network Information
 
 The following network information was collected from the Kali Linux virtual machine.
@@ -69,6 +72,8 @@ DNS Server:
 
 Used to resolve domain names into IP addresses.
 
+-------------------------------------------------------------------------------
+
 Part B: Basic Networking Concepts
 What is an IP Address?
 
@@ -106,6 +111,9 @@ Public IP:
 Private IP:
 
 192.168.x.x
+
+-------------------------------------------------------------
+
 Part C: Basic Network Diagram
 
 Network structure used during testing:
@@ -121,8 +129,10 @@ Network structure used during testing:
               (192.168.1.2)
 
 A graphical version has been included as:
-
 network_diagram.png
+
+-------------------------------------------------------------
+
 Part D: Network Connectivity Test
 Commands Executed
 ping -c 4 google.com
