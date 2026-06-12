@@ -1,0 +1,96 @@
+====================================================
+LINUX TASK 02 - COMMAND OUTPUTS
+====================================================
+
+========================
+PART A - USER INFO
+========================
+
+Command: whoami
+Output:
+kali
+
+------------------------
+
+Command: id
+Output:
+uid=1000(kali) gid=1000(kali) groups=1000(kali),27(sudo)
+
+------------------------
+
+Command: cat /etc/passwd
+Output:
+(Contains system user accounts, system services users, and login user information)
+
+====================================================
+
+========================
+PART B - USERS & GROUPS
+========================
+
+Command: groups student1
+Output:
+student1 : student1 interns
+
+------------------------
+
+Command: id student1
+Output:
+uid=1001(student1) gid=1001(student1) groups=1001(student1),1002(interns)
+
+------------------------
+
+Command: id student2
+Output:
+uid=1002(student2) gid=1002(student2) groups=1002(student2),1002(interns)
+
+====================================================
+
+========================
+PART C - FILE OWNERSHIP
+========================
+
+Command: ls -l report.txt (BEFORE CHOWN)
+Output:
+-rw-rw-r-- 1 kali kali 0 report.txt
+
+------------------------
+
+Command: sudo chown student1 report.txt
+
+Command: ls -l report.txt (AFTER CHOWN)
+Output:
+-rw-rw-r-- 1 student1 kali 0 report.txt
+
+====================================================
+
+========================
+PART D - FILE PERMISSIONS
+========================
+
+Command: ls -l security_policy.txt (INITIAL)
+Output:
+-rw-rw-r-- 1 kali kali 0 security_policy.txt
+
+------------------------
+
+Command: chmod 444 security_policy.txt
+Output:
+-r--r--r-- 1 kali kali 0 security_policy.txt
+
+------------------------
+
+Command: chmod 666 security_policy.txt
+Output:
+-rw-rw-rw- 1 kali kali 0 security_policy.txt
+
+------------------------
+
+Command: chmod 777 security_policy.txt
+Output:
+-rwxrwxrwx 1 kali kali 0 security_policy.txt
+
+====================================================
+
+END OF FILE
+====================================================
