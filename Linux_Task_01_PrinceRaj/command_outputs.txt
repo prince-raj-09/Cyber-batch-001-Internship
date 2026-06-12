@@ -1,0 +1,87 @@
+===== pwd =====
+
+/home/kali/Desktop/cyber-batch-001/CyberSecurity_Lab
+
+===== ls =====
+
+CyberSecurity
+EthicalHacking
+Linux
+Networking
+Reports
+notes.txt
+
+===== ls -la =====
+
+total 24
+drwxr-xr-x 7 kali kali 4096 Jun 12 03:00 .
+drwxr-xr-x 4 kali kali 4096 Jun 12 03:00 ..
+drwxr-xr-x 2 kali kali 4096 Jun 12 03:00 CyberSecurity
+drwxr-xr-x 2 kali kali 4096 Jun 12 03:00 EthicalHacking
+drwxr-xr-x 2 kali kali 4096 Jun 12 03:00 Linux
+drwxr-xr-x 2 kali kali 4096 Jun 12 03:00 Networking
+drwxr-xr-x 2 kali kali 4096 Jun 12 03:00 Reports
+-rw-r--r-- 1 kali kali    0 Jun 12 03:00 notes.txt
+
+===== cd =====
+
+Command Used:
+cd ..
+
+Purpose:
+Moved to the parent directory.
+
+===== clear =====
+
+Command Used:
+clear
+
+Purpose:
+Cleared the terminal screen.
+
+===== history =====
+
+Command Used:
+history
+
+Purpose:
+Displayed previously executed commands.
+
+===== whoami =====
+
+kali
+
+===== hostname =====
+
+kali
+
+===== uname -a =====
+
+Linux kali 6.19.14+kali-amd64 #1 SMP PREEMPT_DYNAMIC Kali 6.19.14-1+kali1 (2026-05-05) x86_64 GNU/Linux
+
+===== date =====
+
+Fri Jun 12 03:28:27 AM EDT 2026
+
+===== uptime =====
+
+03:28:31 up 1:20, 1 user, load average: 0.14, 0.18, 0.13
+
+===== File Management Commands =====
+
+Create Files:
+touch notes.txt
+touch commands.txt
+touch report.txt
+
+Copy File:
+cp notes.txt Networking/
+
+Move File:
+mv commands.txt Linux/
+
+Rename File:
+mv report.txt final_report.txt
+
+Delete File:
+rm final_report.txt

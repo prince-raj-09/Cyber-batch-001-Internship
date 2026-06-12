@@ -1,0 +1,54 @@
+Linux Task 01 Notes
+
+Objective:
+The purpose of this task was to become familiar with the Linux operating system, terminal navigation, file management, and basic system information commands.
+
+Key Concepts Learned
+
+1. Linux Basics
+
+* Linux is a free and open-source operating system.
+* It is widely used in servers, cloud computing, cybersecurity, and ethical hacking.
+* Most cybersecurity tools are designed to run on Linux systems.
+
+2. Terminal Navigation
+
+* pwd displays the current working directory.
+* ls lists files and folders.
+* ls -la displays detailed information including hidden files.
+* cd is used to move between directories.
+* clear clears the terminal screen.
+* history shows previously executed commands.
+
+3. User and System Information
+
+* whoami displays the currently logged-in user.
+* hostname displays the system name.
+* uname -a displays kernel and operating system information.
+* date displays the current system date and time.
+* uptime shows how long the system has been running.
+
+4. Directory Management
+
+* mkdir creates directories.
+* tree displays directory structures.
+* Organized folders help maintain project files efficiently.
+
+5. File Management
+
+* touch creates files.
+* cp copies files.
+* mv moves or renames files.
+* rm removes files.
+* Proper file management is essential for Linux administration.
+
+6. Importance of Linux in Cybersecurity
+
+* Linux provides powerful command-line tools.
+* Most penetration testing tools are built for Linux.
+* Linux offers greater flexibility and control than many operating systems.
+* Cybersecurity professionals commonly use distributions such as Kali Linux and Parrot OS.
+
+Conclusion
+
+This task improved my understanding of Linux fundamentals, terminal commands, directory navigation, file management, and system information gathering. These skills form the foundation for cybersecurity, ethical hacking, and system administration.
