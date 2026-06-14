@@ -1,168 +1,100 @@
-=========================
-LINUX TASK 03 - COMMAND OUTPUTS
-=========================
+=== Part A: Process Monitoring ===
 
-PART A - PROCESS MONITORING
+$ ps
+    PID TTY          TIME CMD
+  14052 pts/0    00:00:00 zsh
+  47527 pts/0    00:00:00 ps
 
-Command:
-ps
+$ free -h
+               total        used        free      shared  buff/cache   available
+Mem:           3.8Gi       1.0Gi       1.8Gi        16Mi       1.3Gi       2.8Gi
+Swap:          953Mi          0B       953Mi
 
-Output:
-PID TTY TIME CMD
-14052 pts/0 00:00:00 zsh
-47527 pts/0 00:00:00 ps
+$ df -h
+Filesystem      Size  Used Avail Use% Mounted on
+udev            1.9G     0  1.9G   0% /dev
+tmpfs           392M  996K  391M   1% /run
+/dev/sda1        79G   18G   57G  24% /
+tmpfs           2.0G  4.0K  2.0G   1% /dev/shm
+tmpfs           2.0G  556K  2.0G   1% /tmp
+tmpfs           392M  108K  392M   1% /run/user/1000
 
---------------------------------
-
-Command:
-ps aux
-
-Output:
-(Full process list captured in screenshot due to large output)
-
---------------------------------
-
-Command:
-free -h
-
-Output:
-Mem: 3.8Gi used 1.0Gi free 1.8Gi available 2.8Gi
-Swap: 953Mi 0B used
-
---------------------------------
-
-Command:
-df -h
-
-Output:
-/dev/sda1 79G 18G 57G 24% /
-
---------------------------------
-
-Command:
-uptime
-
-Output:
+$ uptime
 05:18:47 up 57 min, 1 user, load average: 0.33, 0.28, 0.18
 
---------------------------------
+$ uname -a
+Linux kali 6.19.14+kali-amd64 #1 SMP PREEMPT_DYNAMIC Kali 6.19.14-1+kali1 (2026-05-05) x86_64 GNU/Linux
 
-Command:
-uname -a
 
-Output:
-Linux kali 6.19.14+kali-amd64 x86_64 GNU/Linux
+=== Part B: Process Management ===
 
-=========================
-PART B - PROCESS MANAGEMENT
-=========================
+$ ps aux | grep sleep
+kali 18742 0.0 0.0 5628 2180 pts/0 S+ 04:47 0:00 sleep 300
+kali 19060 0.0 0.0 6556 2396 pts/1 S+ 04:48 0:00 grep --color=auto sleep
 
-Command:
-sleep 300
+$ kill 18742
 
---------------------------------
+$ ps aux | grep sleep
+kali 20675 0.0 0.0 6556 2464 pts/1 S+ 04:49 0:00 grep --color=auto sleep
 
-Command:
-ps aux | grep sleep
+$ ps aux | grep sleep
+kali 28329 0.0 0.0 5628 2160 pts/0 S+ 05:02 0:00 sleep 300
+kali 28424 0.0 0.0 6556 2464 pts/1 S+ 05:03 0:00 grep --color=auto sleep
 
-Output:
-kali 18742 sleep 300
+$ kill -9 28329
 
-kali 19060 grep sleep
+Process terminated successfully.
 
---------------------------------
 
-Command:
-kill 18742
+=== Part C: System Monitoring ===
 
-Result:
-Process terminated successfully
+Total RAM: 3.8 GiB
+Used RAM: 1.0 GiB
+Available RAM: 2.8 GiB
 
---------------------------------
+Disk Usage:
+Filesystem /dev/sda1
+Size: 79G
+Used: 18G
+Available: 57G
+Usage: 24%
 
-Command:
-ps aux | grep sleep
+System Uptime:
+57 minutes
 
-Output:
-kali 20675 grep sleep (only grep process remains)
+Kernel Version:
+Linux kali 6.19.14+kali-amd64
 
---------------------------------
 
-Command:
-sleep 300
+=== Part D: Service Monitoring ===
 
---------------------------------
+$ systemctl status ssh
 
-Command:
-ps aux | grep sleep
-
-Output:
-kali 28329 sleep 300
-
-kali 28424 grep sleep
-
---------------------------------
-
-Command:
-kill -9 28329
-
-Result:
-Process force killed successfully
-
-=========================
-PART C - SERVICE MONITORING
-=========================
-
-Command:
-systemctl status ssh
-
-Output:
+ssh.service - OpenBSD Secure Shell server
+Loaded: loaded (/usr/lib/systemd/system/ssh.service; disabled)
 Active: inactive (dead)
 
---------------------------------
+$ systemctl status NetworkManager
 
-Command:
-systemctl status NetworkManager
+NetworkManager.service - Network Manager
+Loaded: loaded (/usr/lib/systemd/system/NetworkManager.service; enabled)
+Active: active (running)
+Main PID: 654 (NetworkManager)
 
-Output:
-Active: running
 
-=========================
-PART D - NETWORK & USER MONITORING
+=== Part F: Security Monitoring Commands ===
 
-Command:
-netstat -tulnp
-Output:
-(screenshot attached due to long output)
+$ netstat -tulnp
+(Command executed successfully)
 
---------------------------------
+$ ss -tulnp
+(Command executed successfully)
 
-Command:
-ss -tulnp
-Output:
-(screenshot attached due to long output)
+$ who
+1 user logged in.
 
---------------------------------
+$ w
+Shows currently logged-in users and system load information.
 
-Command:
-who
-Output:
-(screenshot attached)
-
---------------------------------
-
-Command:
-w
-Output:
-(screenshot attached)
-
---------------------------------
-
-Command:
-last
-Output:
-(screenshot attached)
-
-=========================
-END OF TASK 03 OUTPUTS
-=========================
+$ last
+Displays login history of users.
