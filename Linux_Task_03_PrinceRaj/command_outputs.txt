@@ -1,0 +1,168 @@
+=========================
+LINUX TASK 03 - COMMAND OUTPUTS
+=========================
+
+PART A - PROCESS MONITORING
+
+Command:
+ps
+
+Output:
+PID TTY TIME CMD
+14052 pts/0 00:00:00 zsh
+47527 pts/0 00:00:00 ps
+
+--------------------------------
+
+Command:
+ps aux
+
+Output:
+(Full process list captured in screenshot due to large output)
+
+--------------------------------
+
+Command:
+free -h
+
+Output:
+Mem: 3.8Gi used 1.0Gi free 1.8Gi available 2.8Gi
+Swap: 953Mi 0B used
+
+--------------------------------
+
+Command:
+df -h
+
+Output:
+/dev/sda1 79G 18G 57G 24% /
+
+--------------------------------
+
+Command:
+uptime
+
+Output:
+05:18:47 up 57 min, 1 user, load average: 0.33, 0.28, 0.18
+
+--------------------------------
+
+Command:
+uname -a
+
+Output:
+Linux kali 6.19.14+kali-amd64 x86_64 GNU/Linux
+
+=========================
+PART B - PROCESS MANAGEMENT
+=========================
+
+Command:
+sleep 300
+
+--------------------------------
+
+Command:
+ps aux | grep sleep
+
+Output:
+kali 18742 sleep 300
+
+kali 19060 grep sleep
+
+--------------------------------
+
+Command:
+kill 18742
+
+Result:
+Process terminated successfully
+
+--------------------------------
+
+Command:
+ps aux | grep sleep
+
+Output:
+kali 20675 grep sleep (only grep process remains)
+
+--------------------------------
+
+Command:
+sleep 300
+
+--------------------------------
+
+Command:
+ps aux | grep sleep
+
+Output:
+kali 28329 sleep 300
+
+kali 28424 grep sleep
+
+--------------------------------
+
+Command:
+kill -9 28329
+
+Result:
+Process force killed successfully
+
+=========================
+PART C - SERVICE MONITORING
+=========================
+
+Command:
+systemctl status ssh
+
+Output:
+Active: inactive (dead)
+
+--------------------------------
+
+Command:
+systemctl status NetworkManager
+
+Output:
+Active: running
+
+=========================
+PART D - NETWORK & USER MONITORING
+
+Command:
+netstat -tulnp
+Output:
+(screenshot attached due to long output)
+
+--------------------------------
+
+Command:
+ss -tulnp
+Output:
+(screenshot attached due to long output)
+
+--------------------------------
+
+Command:
+who
+Output:
+(screenshot attached)
+
+--------------------------------
+
+Command:
+w
+Output:
+(screenshot attached)
+
+--------------------------------
+
+Command:
+last
+Output:
+(screenshot attached)
+
+=========================
+END OF TASK 03 OUTPUTS
+=========================
