@@ -1,0 +1,10 @@
+ACCOUNT SECURITY REVIEW
+
+| Account  | MFA Enabled | Strong Password | Recovery Email |
+| -------- | ----------- | --------------- | -------------- |
+| Google   | Yes         | Yes             | Yes            |
+| GitHub   | Yes         | Yes             | Yes            |
+| LinkedIn | Yes         | Yes             | Yes            |
+
+Summary:
+All reviewed accounts have Multi-Factor Authentication enabled, strong passwords configured, and recovery email addresses set up. These security measures help reduce the risk of unauthorized access and account compromise.

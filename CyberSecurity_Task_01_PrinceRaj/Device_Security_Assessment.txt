@@ -1,0 +1,14 @@
+DEVICE SECURITY ASSESSMENT
+
+Operating System: Windows 11 Home Single Language
+Version: 25H2
+OS Build: 26200.8655
+
+Security Status:
+
+* System Updated: Yes
+* Antivirus Installed: Yes (Microsoft Defender)
+* Firewall Enabled: Yes
+
+Assessment Summary:
+The system is running Windows 11 Home Single Language Version 25H2 with OS Build 26200.8655. Windows Update is enabled and the system is updated with the latest security patches. Microsoft Defender Antivirus is installed and active, providing real-time protection against malware and other threats. Windows Firewall is enabled and helps protect the system from unauthorized network access. Overall, the system follows recommended security practices and maintains a secure operating environment.

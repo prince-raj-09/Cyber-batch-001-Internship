@@ -1,0 +1,13 @@
+CYBER SECURITY REFLECTION REPORT
+
+During this cybersecurity assessment, I reviewed my device security, password practices, and online account protection measures. The activity helped me understand the importance of maintaining strong cybersecurity habits and identifying potential security risks.
+
+One important observation was that online accounts can become vulnerable if strong passwords and Multi-Factor Authentication are not used. Cybercriminals frequently target users through phishing attacks, malware infections, and credential theft. These threats can lead to unauthorized access, financial losses, and privacy violations.
+
+I verified that my Windows 11 system is updated with the latest security patches. I also confirmed that Microsoft Defender Antivirus and Windows Firewall are active and providing protection. For my online accounts, I ensured that strong passwords are used, Multi-Factor Authentication is enabled, and recovery email options are configured.
+
+The most important improvement I will continue implementing is maintaining good password hygiene and staying alert to suspicious emails, messages, and websites. I also plan to regularly review account security settings and update passwords whenever necessary.
+
+Cybersecurity is important because technology is deeply integrated into everyday life. Individuals and organizations rely on digital systems for communication, banking, education, and business operations. Security incidents such as phishing, malware, ransomware, and data breaches can have serious consequences. Therefore, every user should follow cybersecurity best practices and remain aware of emerging threats.
+
+This task improved my understanding of cybersecurity fundamentals and reinforced the importance of protecting personal information through secure habits and responsible use of technology.

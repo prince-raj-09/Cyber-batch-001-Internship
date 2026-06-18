@@ -1,0 +1,81 @@
+CYBER THREAT RESEARCH
+
+1. PHISHING
+
+Definition:
+Phishing is a cyberattack that tricks users into revealing sensitive information through fake emails, websites, or messages.
+
+Real-World Example:
+Attackers send fake banking emails asking users to verify account information.
+
+Prevention:
+
+* Verify sender identity.
+* Avoid clicking suspicious links.
+* Use MFA.
+* Check website URLs carefully.
+
+---
+
+2. MALWARE
+
+Definition:
+Malware is malicious software designed to damage, disrupt, or gain unauthorized access to computer systems.
+
+Real-World Example:
+The WannaCry malware infected thousands of computers worldwide.
+
+Prevention:
+
+* Use antivirus software.
+* Keep systems updated.
+* Avoid downloading files from untrusted sources.
+
+---
+
+3. RANSOMWARE
+
+Definition:
+Ransomware encrypts files and demands payment to restore access.
+
+Real-World Example:
+The Colonial Pipeline ransomware attack disrupted fuel distribution operations.
+
+Prevention:
+
+* Maintain regular backups.
+* Keep software updated.
+* Avoid suspicious attachments and downloads.
+
+---
+
+4. SOCIAL ENGINEERING
+
+Definition:
+Social engineering manipulates people into revealing confidential information.
+
+Real-World Example:
+An attacker impersonates an IT support employee and requests login credentials.
+
+Prevention:
+
+* Verify identities before sharing information.
+* Follow security procedures.
+* Participate in security awareness training.
+
+---
+
+5. DATA BREACH
+
+Definition:
+A data breach occurs when sensitive information is accessed without authorization.
+
+Real-World Example:
+The Equifax data breach exposed personal information of millions of users.
+
+Prevention:
+
+* Use strong passwords.
+* Enable MFA.
+* Encrypt sensitive information.
+* Monitor systems regularly.
