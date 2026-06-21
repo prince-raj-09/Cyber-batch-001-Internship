@@ -1,0 +1,48 @@
+CIA TRIAD RESEARCH
+
+1. CONFIDENTIALITY
+
+Definition:
+Confidentiality ensures that sensitive information is accessible only to authorized individuals and protected from unauthorized access.
+
+Why It Is Important:
+Confidentiality protects personal, financial, academic, and organizational data from disclosure to unauthorized users.
+
+Real-World Example:
+A university stores student records in a secure database that can only be accessed by authorized staff members.
+
+---
+
+2. INTEGRITY
+
+Definition:
+Integrity ensures that information remains accurate, complete, and unaltered unless modified by authorized individuals.
+
+Why It Is Important:
+Integrity maintains trust in data and prevents unauthorized changes that could lead to incorrect decisions.
+
+Real-World Example:
+Examination results stored in a college database must not be modified by unauthorized users.
+
+---
+
+3. AVAILABILITY
+
+Definition:
+Availability ensures that systems, applications, and data are accessible whenever authorized users need them.
+
+Why It Is Important:
+Organizations depend on continuous access to services and information for daily operations.
+
+Real-World Example:
+A college website should remain accessible to students during examination registration periods.
+
+---
+
+CIA TRIAD COMPARISON TABLE
+
+| Component       | Purpose                                    | Example             |
+| --------------- | ------------------------------------------ | ------------------- |
+| Confidentiality | Protect data from unauthorized access      | Student records     |
+| Integrity       | Maintain data accuracy and trustworthiness | Examination results |
+| Availability    | Ensure systems remain accessible           | College website     |

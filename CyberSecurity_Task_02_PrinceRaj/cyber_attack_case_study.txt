@@ -1,0 +1,29 @@
+CYBER ATTACK CASE STUDY – WANNACRY RANSOMWARE
+
+What Happened?
+
+WannaCry was a global ransomware attack that occurred in May 2017. The malware exploited a vulnerability in Microsoft Windows systems and rapidly spread across networks. Once infected, files were encrypted and victims were asked to pay a ransom in Bitcoin to regain access.
+
+Which Part of the CIA Triad Was Affected?
+
+1. Availability – Systems and files became inaccessible after encryption.
+2. Integrity – Data was modified and encrypted without authorization.
+
+What Was the Impact?
+
+* More than 200,000 computers were affected worldwide.
+* Hospitals, businesses, and government organizations experienced service disruptions.
+* Financial losses reached billions of dollars.
+* Critical services became unavailable.
+
+How Could It Have Been Prevented?
+
+* Installing security updates promptly.
+* Maintaining regular backups.
+* Using antivirus and endpoint protection solutions.
+* Conducting vulnerability management.
+* Educating users about cybersecurity risks.
+
+Conclusion:
+
+The WannaCry attack demonstrated the importance of patch management, backups, and proactive cybersecurity practices.

@@ -1,0 +1,15 @@
+COLLEGE RISK ASSESSMENT
+
+| Asset                      | Threat                    | Impact | Risk Level |
+| -------------------------- | ------------------------- | ------ | ---------- |
+| Student Records            | Data Breach               | High   | High       |
+| Examination Data           | Unauthorized Modification | High   | High       |
+| College Website            | DDoS Attack               | Medium | Medium     |
+| Faculty Information        | Phishing Attack           | High   | High       |
+| Network Infrastructure     | Malware Infection         | High   | High       |
+| Email System               | Account Compromise        | Medium | Medium     |
+| Learning Management System | Ransomware                | High   | High       |
+
+Summary:
+
+Student records, examination data, and network infrastructure represent the highest-risk assets because compromise could significantly impact academic operations and privacy.

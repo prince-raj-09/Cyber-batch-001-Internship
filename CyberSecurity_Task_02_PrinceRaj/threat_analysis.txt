@@ -1,0 +1,64 @@
+THREAT ANALYSIS
+
+1. INSIDER THREAT
+
+Description:
+A threat originating from employees, students, or authorized users.
+
+Possible Impact:
+Data theft, unauthorized access, and information leakage.
+
+Prevention:
+Access controls, monitoring, and security awareness training.
+
+---
+
+2. MALWARE
+
+Description:
+Malicious software designed to damage or compromise systems.
+
+Possible Impact:
+Data loss, service disruption, and unauthorized access.
+
+Prevention:
+Antivirus software, updates, and safe browsing practices.
+
+---
+
+3. PHISHING
+
+Description:
+Fraudulent emails or messages designed to steal information.
+
+Possible Impact:
+Credential theft and account compromise.
+
+Prevention:
+User awareness training and MFA.
+
+---
+
+4. WEAK PASSWORDS
+
+Description:
+Simple or reused passwords that are easy to guess.
+
+Possible Impact:
+Unauthorized account access.
+
+Prevention:
+Strong password policies and password managers.
+
+---
+
+5. UNPATCHED SYSTEMS
+
+Description:
+Systems that have not received security updates.
+
+Possible Impact:
+Exploitation of known vulnerabilities.
+
+Prevention:
+Regular patch management and vulnerability assessments.
