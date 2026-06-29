@@ -1,0 +1,27 @@
+Reconnaissance
+
+Reconnaissance is the first phase of ethical hacking where publicly available information is collected about a target.
+
+Passive Reconnaissance
+
+Passive reconnaissance gathers information without directly interacting with the target system.
+
+WHOIS
+
+WHOIS provides domain registration details such as registrar, registration date, expiry date and name servers.
+
+DNS
+
+DNS translates domain names into IP addresses. Common records include A, MX, NS and TXT.
+
+HTTP Security Headers
+
+Security headers protect websites from attacks such as clickjacking and cross-site scripting.
+
+robots.txt
+
+robots.txt tells search engines which pages should or should not be crawled.
+
+sitemap.xml
+
+A sitemap lists website URLs to help search engines index pages efficiently.

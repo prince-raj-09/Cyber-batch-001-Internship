@@ -1,0 +1,31 @@
+Network Scanning
+
+Network scanning is the process of discovering active hosts, open ports, and services running on a system. It helps security professionals understand a system before performing a security assessment.
+
+Nmap
+
+Nmap (Network Mapper) is an open-source tool used for network discovery and security auditing. It identifies live hosts, open ports, running services, and operating systems.
+
+TCP
+
+TCP (Transmission Control Protocol) provides reliable communication between devices by ensuring packets are delivered correctly.
+
+UDP
+
+UDP (User Datagram Protocol) is a connectionless protocol used for faster communication where reliability is less important.
+
+Service Enumeration
+
+Service enumeration identifies the applications and versions running on open ports. This helps determine potential vulnerabilities.
+
+Operating System Detection
+
+Nmap can identify the operating system by analyzing responses from the target host. This information assists penetration testers in selecting appropriate testing techniques.
+
+Banner Grabbing
+
+Banner grabbing retrieves information from network services to determine software names and versions.
+
+Vulnerability Assessment
+
+A vulnerability assessment identifies security weaknesses in systems before attackers can exploit them.
